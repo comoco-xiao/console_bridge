@@ -95,7 +95,6 @@ setup(
     license="BSD-2-Clause",
     packages=[],
     python_requires=">=3.9",
-    install_requires=["numpy"],
     ext_modules=[Extension("console_bridge_dummy", [])],  # 触发扩展构建
     cmdclass={"build_ext": CMakeBuildExt},
     zip_safe=False,
