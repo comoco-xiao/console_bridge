@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 3.0.2)
+cmake_policy(SET CMP0057 NEW)
 project(console_bridge)
 
 set (CONSOLE_BRIDGE_MAJOR_VERSION 1)
