@@ -95,7 +95,7 @@ setup(
     license="BSD-2-Clause",
     packages=[],
     python_requires=">=3.9",
-    ext_modules=[Extension("console_bridge_dummy", [])],  # 触发扩展构建
+    ext_modules=[Extension("", [])],  # 触发扩展构建
     cmdclass={"build_ext": CMakeBuildExt},
     zip_safe=False,
 )
